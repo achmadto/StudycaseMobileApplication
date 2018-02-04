@@ -5,20 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.sei.achmadtaufikrizki_1202150071_modul1.MainActivity"
+    android:paddingBottom="25dp"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingTop="25dp"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text="Makan Malam" />
+        android:text="Makan Malam"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="402dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:text="Bersama Milea" />
+        android:textSize="20sp"
+        android:text="Bersama Milea"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"/>
 
     <EditText
         android:id="@+id/menu"
@@ -37,6 +45,7 @@
         android:layout_weight="0"
         android:ems="10"
         android:inputType="number"
+        android:layout_marginBottom="24dp"
         android:hint="porsi" />
 
     <Button
